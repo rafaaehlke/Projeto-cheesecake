@@ -15,6 +15,8 @@
 body {
   color: #A54328;
   font-size: 1.6rem;
+  
+  background: #FFF;
 }
 
 main {
@@ -91,13 +93,44 @@ button {
       flex-direction: row;
       max-width: fit-content;
       gap: 16rem;
+
+      padding: 9.5rem 14.6rem;
     }
   
     .recipe {
       max-width: 43.5rem;
+      
     }
 
     .ingredients {
       max-width: 52.5rem;
     }
+
+    h1, 
+    h2 {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
+
+    p,
+    li,
+    strong {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+
+    button {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+
+      padding: 1rem 2rem;
+    }
 }
+
+@media (min-width:600px) {
+  
+  body {
+    background: url(./image/background-desktop.jpg);
+  }
+}
+
